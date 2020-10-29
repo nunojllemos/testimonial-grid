@@ -1,0 +1,97 @@
+// dependencies
+@import variables
+@import queries
+
+*
+  font-family: $font
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  list-style: none
+  text-decoration: none
+
+// testimonial background colors 
+.testimonial-1
+  background-color: $violet
+  color: $white
+  overflow: hidden
+  z-index: -2
+
+.testimonial-2
+  background-color: $darkGreyBlue
+  color: $white
+
+.testimonial-3
+  background-color: $white
+  color: $darkGreyBlue
+  .testimonial-text
+    opacity: 50%
+
+.testimonial-4
+  background-color: $darkBlackBlue
+  color: $white
+
+.testimonial-5
+  background-color: $white
+  color: $darkGreyBlue
+  .testimonial-text
+    opacity: 50%
+
+// styling 
+section
+  width: 85%
+  max-width: 350px
+  margin: 30px auto 0 auto
+  border-radius: 10px
+  padding: 35px
+
+.quotation
+  position: relative
+  width: 140px
+  top: -280px
+  left: 65%
+  z-index: -1
+
+.user-info
+  display: flex
+  align-items: center
+  margin-bottom: 25px
+  .photo
+    border-radius: 50%
+    width: 40px
+    height: 40px
+    margin-right: 20px
+    border: 2px solid rgba(255, 255, 255, .5)
+
+h3
+  font-size: .9rem
+
+.verified-status
+  font-size: .8rem
+  margin-top: 2px
+  opacity: 50%
+
+h2
+  font-size: 1.3rem
+  font-weight: 500
+  margin-bottom: 20px
+
+.testimonial-text
+  font-size: .9rem
+  line-height: 1.2rem
+  opacity: 30%
+  font-weight: 500
+
+footer
+  font-size: .8rem
+  font-weight: 300
+  text-align: center
+  position: relative
+  bottom: 0
+  #heart
+    color: #ec524b
+    font-size: 1rem
+  a
+    text-decoration: underline
+    color: black
+    cursor: pointer
